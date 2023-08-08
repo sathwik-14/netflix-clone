@@ -1,0 +1,42 @@
+.body {
+  background: url("../../../assets/bg.jpg");
+  height: 100vh;
+  width: 100vw;
+
+  a {
+    text-decoration: none;
+  }
+
+  ::placeholder {
+    color: rgba(#9f9f9f, 0.9);
+  }
+
+  .btn-danger {
+    background-color: #e50914 !important;
+    padding: 0.7rem 0;
+  }
+
+  .text-muted-light {
+    color: #737165;
+  }
+  .form-control {
+    background-color: #333333;
+    border: none;
+    padding: 0.8rem;
+  }
+  .card-overlay {
+    background: rgba(black, 0.6);
+    height: 100vh;
+  }
+
+  .form {
+    background-color: rgba(black, 0.7);
+    min-width: 460px;
+    min-height: 660px;
+  }
+  .footer {
+    background-color: rgba(black, 0.7);
+    color: #737165;
+    width: 100vw;
+  }
+}
