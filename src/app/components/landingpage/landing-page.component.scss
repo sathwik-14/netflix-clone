@@ -1,0 +1,27 @@
+.body {
+  background: url("../../../assets/bg.jpg");
+  background-position: center;
+  background-size: 125% 250%;
+  .card-overlay {
+    background: rgba(black, 0.67);
+    .hero-content {
+      padding-bottom: 10rem;
+    }
+    .hero-text-lg {
+      margin-top: 12rem;
+      font-size: 3.2rem;
+      font-weight: 700;
+    }
+    .hero-text-md {
+      font-size: 1.4rem;
+      font-weight: 400;
+    }
+    .hero-input {
+      border: 1px solid rgba(white,.5);
+      border-radius: .1rem;
+      background-color: rgba(black,.3);
+      padding: 0.8rem;
+
+    }
+  }
+}
