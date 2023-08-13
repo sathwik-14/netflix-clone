@@ -24,7 +24,16 @@ body {
     src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Blk.woff2) format('woff2'),url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Blk.woff) format('woff')
   }
 
-  .btn-danger {
+  .btn-danger-signin {
     background-color: #e50914 !important;
-    padding: 0.7rem 0;
+    padding: 4px 16px;
+    font-size: 14px !important;
+    color: white !important;
+  }
+
+  .btn-danger-signup {
+    background-color: #e50914 !important;
+    padding: 12px 24px;
+    font-size: 24px !important;
+    color: white  !important;
   }

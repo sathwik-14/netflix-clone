@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
-  {path: '', title: 'Netflix Inida-Watch TV Show', loadComponent:()=>import('./components/landingpage/landing-page.component').then(e=>e.LandingPageComponent)},
+  {path: '', title: 'Netflix India-Watch TV Show', loadComponent:()=>import('./components/landingpage/landing-page.component').then(e=>e.LandingPageComponent)},
   {path: 'signin',title: 'Netflix', loadComponent:()=> import('./components/signin/signin.component').then(e=>e.SigninComponent)}
 ];
 

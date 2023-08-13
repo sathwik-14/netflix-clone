@@ -1,9 +1,21 @@
 .body {
+  a {
+    color: inherit;
+  }
   background-color: #232323;
+  ::placeholder {
+    color: rgba(#9f9f9f, 0.9);
+  }
+
+  .text-muted-light {
+    color: #d4d3c3;
+  }
   .hero {
     background: url("../../../assets/bg.jpg");
-    background-position: center;
-    background-size: 125% 250%;
+    select {
+      border: none;
+      outline: none;
+    }
     .card-overlay {
       background: rgba(black, 0.67);
       .hero-content {
@@ -27,9 +39,10 @@
     }
   }
 
-  .section-1,.section-2,.section-4 {
+  .section {
     background-color: black;
     color: white;
+    margin-top: .5rem;
     .h1 {
       font-size: 3.2rem;
       font-weight: 700;
@@ -40,6 +53,12 @@
       line-break: strict;
       font-weight: 400;
     }
+    img {
+      opacity: .9;
+    }
+  }
+
+  .section-1,.section-2,.section-4 {
     video {
       position: absolute;
       margin-left: 4.85rem;
@@ -47,23 +66,9 @@
       transform: scale(.96);
       z-index: 0;
     }
-    img {
-      opacity: .9;
-    }
   }
 
   .section-3 {
-    background-color: black;
-    color: white;
-    .h1 {
-      font-size: 3.2rem;
-      font-weight: 700;
-    }
-    .h6 {
-      font-size: 1.4rem;
-      word-wrap: break-word;
-      font-weight: 400;
-    }
     video {
       position: absolute;
       margin-left: 7.3rem;
@@ -72,9 +77,18 @@
       transform: scale(.96);
       z-index: 0;
     }
-    img {
-      opacity: .9;
+  }
+
+  .section-5 {
+    .faq-card {
+      background-color: #2d2d2d;
     }
+    .hero-input {
+      border: 1px solid rgba(white,.5);
+      border-radius: .1rem;
+      background-color: rgba(black,.3);
+      padding: 0.8rem;
+    } 
   }
 }
 

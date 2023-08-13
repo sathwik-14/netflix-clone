@@ -14,7 +14,7 @@
   }
 
   ::placeholder {
-    color: rgba(#9f9f9f, 0.9);
+    color: rgba(#9f9f9f, 0.9) !important;
   }
 
   .text-muted-light {
@@ -24,6 +24,7 @@
     background-color: #333333;
     border: none;
     padding: 0.8rem;
+    color: white !important;
   }
   .card-overlay {
     background: rgba(black, 0.6);
