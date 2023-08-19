@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ViewEncapsulation } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { CardComponent } from '../questioncard/card/card.component';
 @Component({
@@ -6,7 +6,8 @@ import { CardComponent } from '../questioncard/card/card.component';
   standalone: true,
   imports: [CommonModule,CardComponent],
   templateUrl: './landing-page.component.html',
-  styleUrls: ['./landing-page.component.scss']
+  styleUrls: ['./landing-page.component.scss'],
+  encapsulation: ViewEncapsulation.None
 })
 export class LandingPageComponent {
 
